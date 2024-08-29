@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "7209609d-1a2e-4fda-b8af-1a3b9461ada7",
+		"name": "Flickr",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2438082"
+	},
+	"item": [
+		{
+			"name": "Search image with Lat / Lon",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "f7e7fb8cc34e52db3e5af5e1727d0c0b",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "api_key",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.flickr.com/services/rest/?method=flickr.photos.search&format=json&lon=6.9582593405589686&lat=50.94156870559199&nojsoncallback=1&extras=url_l",
+					"protocol": "https",
+					"host": [
+						"api",
+						"flickr",
+						"com"
+					],
+					"path": [
+						"services",
+						"rest",
+						""
+					],
+					"query": [
+						{
+							"key": "method",
+							"value": "flickr.photos.search"
+						},
+						{
+							"key": "format",
+							"value": "json"
+						},
+						{
+							"key": "lon",
+							"value": "6.9582593405589686"
+						},
+						{
+							"key": "lat",
+							"value": "50.94156870559199"
+						},
+						{
+							"key": "nojsoncallback",
+							"value": "1"
+						},
+						{
+							"key": "extras",
+							"value": "url_l"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+  <wpt lat="50.94156870559199" lon="6.9582593405589686">
+    <name>Cologne Cathedral</name>
+    <time>2024-08-25T12:00:00Z</time>
+  </wpt>
+  <wpt lat="50.93372408340031" lon="6.87496943235902">
+    <name>RheinEnergieSTADION</name>
+    <time>2024-08-25T12:00:03Z</time>
+  </wpt>
+  <wpt lat="51.022288961875134" lon="6.920760509274175">
+    <name>Blackfoot Beach</name>
+    <time>2024-08-25T12:00:05Z</time>
+  </wpt>
+  <wpt lat="50.93192566831796" lon="6.964418262927222">
+    <name>Schokoladenmuseum Köln</name>
+    <time>2024-08-25T12:00:08Z</time>
+  </wpt>
+</gpx>
